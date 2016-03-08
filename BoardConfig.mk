@@ -36,7 +36,7 @@ TARGET_REQUIRES_BUMP := true
  TARGET_GCC_VERSION_EXP := 4.9-uber
  
 # Optimizations
- CLANG_O3 := true
+ CLANG_O3 := false
  STRICT_ALIASING := false
  KRAIT_TUNINGS := false
  GRAPHITE_OPTS := false
