@@ -39,7 +39,7 @@ TARGET_GCC_VERSION_EXP := 4.9-uber
 CLANG_O3 := true
 STRICT_ALIASING := false
 KRAIT_TUNINGS := true
-GRAPHITE_OPTS := true
+GRAPHITE_OPTS := false
 ENABLE_GCCONLY := true
 
 # Partitions
