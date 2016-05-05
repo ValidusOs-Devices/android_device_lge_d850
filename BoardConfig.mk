@@ -25,15 +25,12 @@ BLUETOOTH_HCI_USE_MCT := true
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/d850/bluetooth
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_d850_defconfig
+TARGET_KERNEL_CONFIG := coocoo_d850_defconfig
 TARGET_REQUIRES_BUMP := true
 
 # Kernel Toolchain
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-linux-androideabi-4.9-uber/bin
 KERNEL_TOOLCHAIN_PREFIX := arm-linux-androideabi-
-
-# Rom Toolchain
-TARGET_GCC_VERSION_EXP := 4.9-uber
 
 # Optimizations
 CLANG_O3 := true
